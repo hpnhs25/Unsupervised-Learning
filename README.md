@@ -1,6 +1,9 @@
 # Crypto Clustering
 
-## Preparing the Data 
+* Python notebook file for code: crypto_investments.ipynb
+* Resources contains csv file data for analysis
+
+## Preparing the Data and K-Means Model 
 
 ![1](./Resources/df_elbow.png)
 
@@ -42,8 +45,9 @@ A: No it does not differ
 
 ## Visualize and Compare the Results
 
-![1](./Resources/elbow_agg2.png)
+![1](./Resources/elbow_agg.png)
 
+![1](./Resources/elbow_agg2.png)
 
 
 ![1](./Resources/df_agg1.png)
@@ -53,4 +57,4 @@ A: No it does not differ
 
 Q: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
 
-A: The variance or inertia total is lower with fewer features to cluster and this can be seen in the tighter clustering scatterplot
+A: The variance or inertia total is lower with fewer features to cluster and this can be seen in the tighter clustering scatterplot and also the K-Means Model built on PCA Data shows lower total inertia or variance at all k values in the model.
